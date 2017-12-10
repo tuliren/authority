@@ -1,12 +1,6 @@
-# Authority *(CURRENTLY UNMAINTAINED)*
+# Authority
 
-Authority is now unmaintained.
-Users who have installed it decided to trust me, and I'm not comfortable transferring that trust to someone else on their behalf.
-However, if you'd like to fork it, feel free to open a PR to add your repo and/or gem name to this README, and I'll probably merge it.
-
-Known forks:
-
-- (none yet)
+Forked from [nathanl/authority](https://github.com/nathanl/authority).
 
 ## Overview
 
