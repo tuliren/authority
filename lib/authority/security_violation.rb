@@ -9,7 +9,7 @@ module Authority
     end
 
     def message
-      "#{@user} is not authorized to #{@action} this resource: #{@resource}"
+      "#{@user.class.name} #{@user.id} is not authorized to #{@action} this resource: #{@resource}"
     end
   end
 end

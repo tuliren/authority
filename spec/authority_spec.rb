@@ -121,7 +121,7 @@ describe Authority do
     end
 
     it "uses them all in its message" do
-      expect(security_violation.message).to eq("#{user} is not authorized to #{action} this resource: #{resource}")
+      expect(security_violation.message).to eq("#{user.class.name} #{user.id} is not authorized to #{action} this resource: #{resource}")
     end
 
   end
